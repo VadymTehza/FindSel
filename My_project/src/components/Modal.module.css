@@ -1,0 +1,6 @@
+.dialog { width: min(520px, 92vw); padding: 0; border: 1px solid var(--border); border-radius: 10px; box-shadow: 0 12px 40px rgba(0,0,0,.35); background: #fff; }
+.dialog::backdrop { background: rgba(0, 0, 0, 0.5); }
+.inner { padding: 20px 24px 24px; }
+.head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+.head h2 { font-size: 22px; }
+.close { border: 0; background: none; font-size: 30px; line-height: 1; padding: 0 4px; }

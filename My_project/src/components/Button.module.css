@@ -1,0 +1,7 @@
+.btn { padding: 10px 18px; border-radius: var(--radius); border: 1px solid var(--border); background: var(--grey); font-weight: 600; box-shadow: var(--shadow); }
+.full { width: 100%; }
+.outline { background: transparent; }
+.primary { background: #0a84ff; border-color: #0a84ff; color: #000; }
+.green { background: var(--green); border-color: var(--green); color: #fff; }
+.pill { border-radius: 14px; background: #fff; }
+.btn:hover { filter: brightness(0.96); }
