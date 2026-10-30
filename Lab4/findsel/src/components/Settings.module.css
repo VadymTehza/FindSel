@@ -1,0 +1,9 @@
+.panel { display: flex; flex-direction: column; gap: 16px; }
+.card { background: #fff; border: 1px solid var(--border); border-radius: 6px; box-shadow: var(--shadow); padding: 16px 20px; }
+.card h2 { font-size: 22px; margin-bottom: 8px; }
+.row { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 12px 0; border-top: 1px solid #e3e3e3; }
+.card h2 + .row { border-top: 0; }
+.rowText { display: flex; flex-direction: column; gap: 2px; font-size: 18px; }
+.label { font-size: 13px; color: #555; }
+.link { background: none; border: 0; color: var(--blue); font-weight: 700; font-size: 16px; text-decoration: underline; }
+.save { align-self: flex-end; }
