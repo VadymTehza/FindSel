@@ -1,0 +1,2 @@
+.list { display: flex; flex-direction: column; gap: 16px; }
+.active { color: #138a4f; }
