@@ -1,8 +1,0 @@
-.card { position: relative; border: 1px solid #ddd; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,.1); overflow: hidden; min-height: 380px; background: #fff; }
-.img { width: 100%; height: 200px; object-fit: cover; display: block; }
-.price { margin: 12px 14px 4px; font-size: 30px; font-weight: 600; color: var(--green-price); }
-.title { margin: 0 14px; font-size: 14px; font-weight: 700; }
-.fav { position: absolute; right: 14px; bottom: 12px; }
-.cartBtn { position: absolute; left: 14px; bottom: 14px; padding: 8px 16px; border: 1px solid var(--green); border-radius: 8px; background: var(--green); color: #fff; font-weight: 700; font-size: 14px; }
-.cartBtn:hover { filter: brightness(0.95); }
-.inCart { background: #e8f8ef; color: #0d5c35; }

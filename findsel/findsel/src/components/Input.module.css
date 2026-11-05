@@ -1,4 +1,0 @@
-.field { display: block; margin-bottom: 20px; }
-.label { display: block; font-weight: 700; margin-bottom: 6px; }
-.input { width: 100%; padding: 14px 16px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--grey); font-weight: 600; box-shadow: var(--shadow); }
-.input::placeholder { color: #000; }
