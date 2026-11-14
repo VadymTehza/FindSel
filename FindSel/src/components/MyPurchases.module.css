@@ -1,0 +1,13 @@
+.list { display: flex; flex-direction: column; gap: 16px; }
+.order { background: #fff; border: 1px solid var(--border); border-radius: 8px; box-shadow: var(--shadow); padding: 14px 18px; display: flex; flex-direction: column; gap: 10px; }
+.head { display: flex; gap: 16px; align-items: center; flex-wrap: wrap; }
+.head span:nth-child(2) { color: #666; }
+.status { margin-left: auto; background: #e8f8ef; color: #0d5c35; font-weight: 700; padding: 4px 10px; border-radius: 12px; }
+.items { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+.items li { display: flex; align-items: center; gap: 12px; }
+.items img { width: 56px; height: 44px; object-fit: cover; border-radius: 6px; }
+.items span { flex: 1; }
+.meta { margin: 0; color: #555; font-size: 14px; }
+.foot { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; font-size: 18px; }
+.empty { background: #fff; border: 1px dashed #777; border-radius: 8px; padding: 32px; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 12px; }
+.empty p { margin: 0; }
