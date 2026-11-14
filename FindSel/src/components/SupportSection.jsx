@@ -65,8 +65,8 @@ export default function SupportSection() {
             <li>
               <span aria-hidden>🕘</span>
               <div>
-                <strong>Щодня 9:00–21:00</strong>
-                <small>Пн-Пт 9:00-21:00, Сб 10:00-18:00, Нд Вихідний</small>
+                <strong>Щодня 09:00–21:00</strong>
+                <small>Без вихідних</small>
               </div>
             </li>
           </ul>

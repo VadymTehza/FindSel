@@ -7,6 +7,39 @@
   </head>
   <body>
     <div id="root"></div>
+
+    <!-- Діагностика: якщо сайт не запустився, замість білого екрана буде підказка -->
+    <script>
+      (function () {
+        function show(text) {
+          var root = document.getElementById('root');
+          if (!root || root.children.length) return;
+          var pre = document.createElement('pre');
+          pre.style.cssText =
+            'padding:16px;margin:16px;font:14px/1.5 monospace;color:#b42318;' +
+            'background:#fff5f4;border:1px solid #d92d20;border-radius:8px;white-space:pre-wrap';
+          pre.textContent = text;
+          root.appendChild(pre);
+        }
+        window.addEventListener('error', function (e) {
+          show('Помилка в коді: ' + e.message + '\n' + (e.filename || ''));
+        });
+        window.addEventListener('unhandledrejection', function (e) {
+          show('Помилка: ' + ((e.reason && e.reason.message) || e.reason));
+        });
+        setTimeout(function () {
+          show(
+            'Сторінка порожня: застосунок не запустився.\n\n' +
+              '1. Сайт треба відкривати за адресою з терміналу після `npm run dev`\n' +
+              '   (зазвичай http://localhost:5173), а не подвійним кліком по index.html\n' +
+              '   і не через Live Server.\n' +
+              '2. Натисніть F12 -> вкладка Console і прочитайте червону помилку.\n' +
+              '3. У терміналі, де запущено npm run dev, не має бути слова error.'
+          );
+        }, 3000);
+      })();
+    </script>
+
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
