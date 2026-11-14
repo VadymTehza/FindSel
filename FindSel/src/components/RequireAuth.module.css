@@ -1,0 +1,4 @@
+.msg { text-align: center; color: #555; padding: 60px 0; }
+.denied { max-width: 480px; margin: 80px auto; padding: 24px; text-align: center; display: flex; flex-direction: column; gap: 10px; }
+.denied p { margin: 0; }
+.denied a { color: var(--blue); text-decoration: underline; font-weight: 700; }
